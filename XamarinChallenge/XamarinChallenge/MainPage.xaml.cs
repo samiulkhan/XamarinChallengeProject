@@ -101,7 +101,7 @@ namespace XamarinChallenge
             await blob.DownloadToStreamAsync(stream);
 
             
-            var guid = await client.InvokeApiAsync("/api/XamarinAlliance/ReceiveCredit");
+            //var guid = await client.InvokeApiAsync("/api/XamarinAlliance/ReceiveCredit");
         }
 
 
